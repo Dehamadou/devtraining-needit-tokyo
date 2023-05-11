@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="15d634a8973a21103567db24a253af09" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection"/>
+    <element db_object_id="15d634a8973a21103567db24a253af09" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Autre" max_length="40" name="u_autre" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="50" name="u_other" type="string"/>
+    </element>
 </database>
